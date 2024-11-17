@@ -8,7 +8,6 @@ public class Square_Pattern {
         System.out.print("Enter number of rows ");
         int rows = in.nextInt();
         int i = 0;
-        int j = 0;
         while(i<rows){
 
                 System.out.print("* * * *");

@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Electricity_Bill {
     public static float E_Bill(float units){
-        float bill = units * 8.8f;
-        return bill;
+        return units * 8.8f;
     }
 
     public static void main(String[] args) {

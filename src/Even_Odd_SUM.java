@@ -7,7 +7,7 @@ public class Even_Odd_SUM {
     public static void sum() {
         int odd_sum = 0;
         int even_sum = 0;
-        int choice = 0;
+        int choice;
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the numbers: ");
         int n = in.nextInt();
