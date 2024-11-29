@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Discount_On_Product {
     public static double discount(float original_price,float discount_percentage){
         double discount_amount  =   (discount_percentage / 100) * original_price;
-        double total_discount = original_price - discount_amount;
-        return total_discount;
+        return original_price - discount_amount;
     }
 
     public static void main(String[] args) {
